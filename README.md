@@ -1,5 +1,5 @@
-# Oramat a Fixmat — desať návrhov produktového popisu
+# Oramat a Fixmat — návrhy produktového popisu
 
-Galéria obsahuje desať rôznych smerov na výrobkoch WKCP a HOX v slovenčine aj češtine, spolu 40 úplných ukážok. V galérii vyberte smer, výrobok, obchod a mobilný alebo počítačový pohľad. Tlačidlo „Vybrať na doladenie“ označí voľbu iba v tomto prehliadači; „Skopírovať výber do chatu“ pripraví text na odovzdanie.
+Vybraný smer: interaktívny atlas10 s navigáciou zo smeru1. Aktuálne ukážky WKCP a HOX pre Oramat SK aj Fixmat CZ majú pôvodné produktové nadpisy, farby obchodu, hodnoty priamo na kótach a zväčšený atlas. Ostatných deväť smerov zostáva na porovnanie.
 
-Pri lokálnom otvorení rozbaľte celý priečinok a otvorte index.html. Zoznam všetkých 40 samostatných stránok funguje aj bez JavaScriptu galérie. Ide o návrhy na výber a doladenie, nie o nasadenie do obchodov.
+Galéria obsahuje40 kompletných návrhov. Prepína výrobok, obchod a mobilný alebo desktopový pohľad. Výber tlačidlom je iba lokálny stav návštevníkovho prehliadača; nejde o synchronizované hlasovanie ani nasadenie do obchodov. Zoznam všetkých samostatných stránok a produktový obsah fungujú aj bez JavaScriptu.

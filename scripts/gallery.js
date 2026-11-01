@@ -2,7 +2,7 @@
  const directions=window.DESIGN_DIRECTIONS;
  const frame=document.querySelector('.preview-frame'),stage=document.querySelector('.frame-stage');
  const params=new URLSearchParams(location.search);const narrow=matchMedia('(max-width:740px)').matches;
- let state={direction:Math.max(1,Math.min(10,Math.trunc(Number(params.get('direction'))||1))),family:params.get('family')==='hox'?'hox':'wkcp',shop:params.get('shop')==='fixmat_cz'?'fixmat_cz':'oramat_sk',view:params.get('view')==='mobile'||(!params.has('view')&&narrow)?'mobile':'desktop'};
+ let state={direction:Math.max(1,Math.min(10,Math.trunc(Number(params.get('direction'))||10))),family:params.get('family')==='hox'?'hox':'wkcp',shop:params.get('shop')==='fixmat_cz'?'fixmat_cz':'oramat_sk',view:params.get('view')==='mobile'||(!params.has('view')&&narrow)?'mobile':'desktop'};
  let chosen=null;try{chosen=Number(localStorage.getItem('of-design-choice-20261030'))||null;}catch{}
  const file=()=>`previews/${String(state.direction).padStart(2,'0')}-${state.family}-${state.shop==='fixmat_cz'?'cs':'sk'}.html`;
  const scaleFrame=()=>{const width=state.view==='mobile'?390:1200;const scale=Math.min(1,stage.clientWidth/width);frame.style.width=width+'px';frame.style.height=Math.max(700,stage.clientHeight/scale)+'px';frame.style.transform=`scale(${scale})`;};
