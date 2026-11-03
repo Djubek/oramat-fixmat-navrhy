@@ -1,0 +1,4 @@
+body{margin:0;background:#f5f6f8;color:#202124;font-family:system-ui,sans-serif}
+.preview-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem;padding:.75rem max(1rem,calc((100% - 1050px)/2));background:#fff;border-bottom:1px solid #ddd}
+.preview-bar nav{display:flex;gap:1rem}.preview-bar a{color:#9e0707}
+main{max-width:1050px;margin:auto;background:#fff;padding:clamp(.65rem,2vw,1.5rem)}
